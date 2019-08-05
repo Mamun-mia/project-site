@@ -1,0 +1,20 @@
+.maincontent-area{color:$mainBlue;
+padding: 10px 0;font-family: 'SDGeorgiaLight';
+
+
+
+&__description{
+	font-size: 14px
+}
+
+&__border{border-bottom:1px solid #ddd;
+	bottom: 0;width: 90%;
+	margin-left: 10px;overflow: hidden;
+	padding-bottom: 0;
+
+	@mixin atSmall{
+	margin-left: 50px; 
+	}
+}
+}
+

@@ -1,0 +1,7 @@
+.headline{
+	font-size: 18px;font-weight: 500;color: #1bc58c;
+
+	&--black{
+		color:#000;
+	}
+}

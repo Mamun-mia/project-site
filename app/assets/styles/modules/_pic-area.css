@@ -1,0 +1,31 @@
+
+.pic-area{
+	font-family: 'SDGeorgiaLight';
+overflow: hidden;
+padding-bottom: 30px;text-align: center;
+
+
+	&__title{
+	
+	}
+
+	&__description{
+font-size: 14px
+	}
+
+	&__img{
+	border: 1px solid #ddd;padding: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	@mixin atSmall{
+     
+	}	
+	}
+
+	&__btn{
+	color: #1bc58c;float: right;font-size: 15px;font-weight: 400;text-decoration: none;	
+	}
+
+	&__border{}
+	
+}
