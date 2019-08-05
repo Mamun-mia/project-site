@@ -4,4 +4,13 @@
 	&--black{
 		color:#000;
 	}
+
+	&--white{
+		color:#FFF;
+	}
+	&--description{
+		font-size: 13px;
+		color:#FFF;
+		line-height: 20px
+	}
 }
