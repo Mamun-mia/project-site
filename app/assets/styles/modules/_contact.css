@@ -1,0 +1,46 @@
+.contact-area{
+ background-color:#26A65B; 
+font-family: 'SDGeorgiaLight';
+&__single-contact{
+	text-align: left;
+	color: #fff;
+	ul{margin: 0;padding: 0;list-style: none;
+		li{border-bottom: 1px solid #fff;padding: 10px 0;
+			a{color:#fff;text-decoration: none;font-size: 13px}
+		}
+	}
+
+}
+
+&__read{color: #006442;float: right;font-size: 15px;font-weight: 400;text-decoration: none;}
+&__btn{
+	background: none;border: 1px solid #fff;border-radius: 3px;
+	padding: 6px 20px; text-decoration: none;margin-top: 1px;color: #fff
+}
+&__last-input{width: 220px;margin-bottom: 20px;
+	background: none;border: 1px solid #fff;
+	border-radius: 3px;color: #fff;height: 30px;padding-left: 10px;
+    
+@mixin atSmall{
+	width: 280px;
+}
+@mixin atMedium{
+	width: 210px;
+}
+}
+
+input:focus{outline: none;}
+	::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+
+}

@@ -426,9 +426,18 @@ font-size: 14px
 		color:#000;
 	}
 
+.headline--white{
+		color:#FFF;
+	}
+
+.headline--description{
+		font-size: 13px;
+		color:#FFF;
+		line-height: 20px
+	}
+
 .row{
-	padding: 5px 0;
-  
+	padding: 5px 0; 
  
 
   
@@ -436,7 +445,7 @@ font-size: 14px
 
 .row__column-4{
 	width: 100%;float: none;
-	padding: 40px 20px 20px 20px;
+	padding: 5px 20px 20px 20px;;
 	box-sizing: border-box;
 	text-align: center;
 }
@@ -444,7 +453,8 @@ font-size: 14px
 @media (min-width: 530px) {
 
 .row__column-4{
-	width: 50%;float: left
+	width: 50%;float: left;
+	padding: 40px 20px 20px 20px
 }
 	}
 
@@ -454,6 +464,99 @@ font-size: 14px
 	width:25%;float: left
 }
 	}
+
+.row__padding-b-untill--medium{padding: 5px 20px 15px 20px;
+
+ }
+
+@media (min-width: 530px) {
+
+.row__padding-b-untill--medium{
+   	padding: 40px 20px 20px 20px
+
+ }
+	}
+
+.contact-area{
+ background-color:#26A65B; 
+font-family: 'SDGeorgiaLight';
+
+}
+
+.contact-area__single-contact{
+	text-align: left;
+	color: #fff;
+
+}
+
+.contact-area__single-contact ul{margin: 0;padding: 0;list-style: none;
+	}
+
+.contact-area__single-contact ul li{border-bottom: 1px solid #fff;padding: 10px 0;
+		}
+
+.contact-area__single-contact ul li a{color:#fff;text-decoration: none;font-size: 13px}
+
+.contact-area__read{color: #006442;float: right;font-size: 15px;font-weight: 400;text-decoration: none;}
+
+.contact-area__btn{
+	background: none;border: 1px solid #fff;border-radius: 3px;
+	padding: 6px 20px; text-decoration: none;margin-top: 1px;color: #fff
+}
+
+.contact-area__last-input{width: 220px;margin-bottom: 20px;
+	background: none;border: 1px solid #fff;
+	border-radius: 3px;color: #fff;height: 30px;padding-left: 10px;
+}
+
+@media (min-width: 530px) {
+
+.contact-area__last-input{
+	width: 280px
+}
+	}
+
+@media (min-width: 800px) {
+
+.contact-area__last-input{
+	width: 210px
+}
+	}
+
+.contact-area input:focus{outline: none;}
+
+.contact-area ::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.contact-area ::-moz-placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.contact-area :-ms-input-placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.contact-area ::-ms-input-placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.contact-area ::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.contact-area :-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+.contact-area ::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
 
 
 
