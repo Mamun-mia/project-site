@@ -1,5 +1,5 @@
 .row{
-	padding: 5px 0;
+	
    
 	&__column-4{
 	width: 100%;float: none;
@@ -16,6 +16,13 @@
    @mixin atMedium{
 	width:25%;float: left;
      
+	}
+}
+
+&__column-6{
+	width: 100%;float: none;
+	@mixin atSmall{width: 50%;float: left;
+
 	}
 }
  &__padding-b-untill--medium{padding: 5px 20px 15px 20px;
