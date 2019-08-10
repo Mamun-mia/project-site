@@ -8,9 +8,20 @@
 	&--white{
 		color:#FFF;
 	}
+	&--large{
+     font-size: 25px;
+    font-weight: 500;
+    color: #1bc58c;margin-bottom: 0;
+    @mixin atSmall{
+    	font-size: 36px
+    }
+	}
 	&--description{
 		font-size: 13px;
 		color:#FFF;
 		line-height: 20px
+	}
+	&--description-color{
+	font-size: 15px;font-weight: 400;color: #1bc58c;margin-left: 10px;
 	}
 }

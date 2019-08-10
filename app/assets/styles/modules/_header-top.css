@@ -1,0 +1,18 @@
+.header-area{
+	overflow: hidden;
+	font-family: 'SDGeorgiaLight';
+	&--header-top-left{
+		float: none;
+		text-align: center;
+		@mixin atSmall{
+		float: left;	
+		}
+	}
+	&--header-top-right{
+		float: none;margin-top: 20px;
+		@mixin atSmall{
+		float: right;	
+		}
+	}
+}
+.border{;border-top: 5px solid #1bc58c;}

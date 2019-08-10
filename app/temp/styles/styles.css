@@ -364,6 +364,7 @@ color:#333;
 	max-width:1236px;
 	margin-left:auto;
 	margin-right:auto;
+	
 
 }
 
@@ -430,10 +431,27 @@ font-size: 14px
 		color:#FFF;
 	}
 
+.headline--large{
+     font-size: 25px;
+    font-weight: 500;
+    color: #1bc58c;margin-bottom: 0;
+	}
+
+@media (min-width: 530px) {
+
+.headline--large{
+    	font-size: 36px
+	}
+	}
+
 .headline--description{
 		font-size: 13px;
 		color:#FFF;
 		line-height: 20px
+	}
+
+.headline--description-color{
+	font-size: 15px;font-weight: 400;color: #1bc58c;margin-left: 10px;
 	}
 
 .row__column-4{
@@ -602,6 +620,36 @@ font-family: 'SDGeorgiaLight';
 		text-align: right
 	}
 	}
+
+.header-area{
+	overflow: hidden;
+	font-family: 'SDGeorgiaLight';
+}
+
+.header-area--header-top-left{
+		float: none;
+		text-align: center;
+	}
+
+@media (min-width: 530px) {
+
+.header-area--header-top-left{
+		float: left
+	}
+	}
+
+.header-area--header-top-right{
+		float: none;margin-top: 20px;
+	}
+
+@media (min-width: 530px) {
+
+.header-area--header-top-right{
+		float: right
+	}
+	}
+
+.border{;border-top: 5px solid #1bc58c;}
 
 
 
